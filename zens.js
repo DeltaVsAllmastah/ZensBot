@@ -24,7 +24,7 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('®  ZenssCuyy')  //ubah di config biar ngk emror
+const nyoutube = ('®  Delta')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
 
@@ -601,7 +601,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/0b31865ef182a7681f9c3.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n chat nomor berikut : wa.me/62895604670507\n\n_Terima kasih_` }, { quoted: m })
+                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/0b31865ef182a7681f9c3.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n chat nomor berikut : wa.me/6282120807400\n\n_Terima kasih_` }, { quoted: m })
             }
             break 
             case 'chat': {
@@ -2936,7 +2936,7 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 ├ *Wit* : ${timur} WIT
 ╰──❏`
             let ments = [ownernya, me, ini_mark]
-            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '⌕ Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 }]
+            let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '⌕ Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '⌕ Donasi' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments, quoted: fkontak})
             } 
 break
