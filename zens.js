@@ -2936,7 +2936,7 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 ├ *Wit* : ${timur} WIT
 ╰──❏`
             let ments = [ownernya, me, ini_mark]
-            let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '𝐋𝐢𝐬𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 𝐑𝐮𝐥𝐞𝐬' }, type: 1 },{ buttonId: '𝐀𝐥𝐥𝐦𝐞𝐧𝐮', buttonText: { displayText: '⌕ Allmenu' }, type: 1 }]
+            let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '𝐋𝐢𝐬𝐭 𝐂𝐨𝐦𝐦𝐚𝐧𝐝' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: 𝐑𝐮𝐥𝐞𝐬' }, type: 1 },{ buttonId: '.allmenu', buttonText: { displayText: '𝐀𝐥𝐥𝐦𝐞𝐧𝐮' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments, quoted: fkontak})
             } 
 break
